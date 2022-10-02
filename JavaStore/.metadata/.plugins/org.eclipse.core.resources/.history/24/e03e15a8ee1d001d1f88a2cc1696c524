@@ -1,0 +1,7 @@
+package poly.edu.service.impl;
+
+import poly.edu.service.AccountService;
+
+public class AccountServiceImpl implements AccountService {
+
+}

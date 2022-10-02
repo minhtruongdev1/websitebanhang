@@ -1,0 +1,6 @@
+
+r
+java:S1161 ":Add the "@Override" annotation above this method signature(Î…ü†ýÿÿÿÿ8úÑ§Ôª0H‘RMAJORZ
+CODE_SMELL
+|
+java:S5344!">Don't use the default "PasswordEncoder" relying on plain-text.(š¡™Òþÿÿÿÿ8úÑ§Ôª0H“RCRITICALZVULNERABILITY

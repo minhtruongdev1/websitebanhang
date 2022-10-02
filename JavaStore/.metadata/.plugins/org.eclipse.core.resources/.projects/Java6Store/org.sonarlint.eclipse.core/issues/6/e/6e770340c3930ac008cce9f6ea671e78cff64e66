@@ -1,0 +1,11 @@
+
+‘javascript:S1172'"_Remove the unused function parameter "item" or rename it to "_item" to make intention explicit.(Î†ò×HıRMAJORZ
+CODE_SMELL
+ejavascript:S18542"3Remove this useless assignment to variable "total".(¾¥’H€RMAJORZ
+CODE_SMELL
+jjavascript:S1854,"3Remove this useless assignment to variable "total".(·ÛƒÿøÿÿÿÿHRMAJORZ
+CODE_SMELL
+Vjavascript:S1186'"!Unexpected empty method 'amt_of'.(Î†ò×H‚RCRITICALZ
+CODE_SMELL
+ejavascript:S1117".'item' is already declared in the upper scope.(À¤ßışÿÿÿÿH„RMAJORZ
+CODE_SMELL

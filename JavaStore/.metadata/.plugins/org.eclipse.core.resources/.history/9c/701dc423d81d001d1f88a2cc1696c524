@@ -1,0 +1,28 @@
+package poly.edu.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import poly.edu.Dao.ProductDao;
+import poly.edu.entity.Product;
+import poly.edu.service.ProductService;
+
+@Service
+public class ProductServiceImpl implements ProductService {
+	@Autowired
+	ProductDao pdao;
+	@Override
+	public Object findById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> findAll() {
+		
+		return pdao.findAll();
+	}
+
+}

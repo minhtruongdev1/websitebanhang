@@ -1,0 +1,19 @@
+
+Œ
+java:S1104"TMake fullname a static final constant or non-public and provide accessors if needed.(ŒÏœÅüÿÿÿÿ8ç¡ûÒª0HµRMINORZ
+CODE_SMELL
+Œ
+java:S1104"TMake password a static final constant or non-public and provide accessors if needed.(¼şòüÿÿÿÿ8ç¡ûÒª0H´RMINORZ
+CODE_SMELL
+W
+java:S1948'"(Make "authorities" private or transient.(¶Û¦ÉH¿RCRITICALZ
+CODE_SMELL
+‰
+java:S1104 "QMake photo a static final constant or non-public and provide accessors if needed.(äÏÈ†úÿÿÿÿ8ç¡ûÒª0H·RMINORZ
+CODE_SMELL
+‰
+java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëıÿÿÿÿ8ç¡ûÒª0H¶RMINORZ
+CODE_SMELL
+W
+java:S1948#"#Make "orders" private or transient.(Û‹°íşÿÿÿÿHÀRCRITICALZ
+CODE_SMELL

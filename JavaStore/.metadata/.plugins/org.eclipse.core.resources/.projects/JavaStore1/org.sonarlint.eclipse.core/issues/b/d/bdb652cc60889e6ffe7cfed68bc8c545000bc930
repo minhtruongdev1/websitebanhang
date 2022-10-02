@@ -1,0 +1,15 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆ•—ÃH·RMINORZ
+CODE_SMELL
+u
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¾–€ñH¸RMAJORZBUG
+p
+java:S1128"DRemove this unused import 'com.fasterxml.jackson.databind.JsonNode'.(–×ªH¹RMINORZ
+CODE_SMELL
+
+java:S1128	"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿH»RMINORZ
+CODE_SMELL
+
+java:S1128
+"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½ÀıÿÿÿÿH½RMINORZ
+CODE_SMELL

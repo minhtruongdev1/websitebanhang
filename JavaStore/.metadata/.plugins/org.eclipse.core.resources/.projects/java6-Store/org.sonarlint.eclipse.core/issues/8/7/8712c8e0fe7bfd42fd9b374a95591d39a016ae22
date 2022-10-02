@@ -1,0 +1,6 @@
+
+\
+java:S36552"7Call "Optional#isPresent()" before accessing the value.(øÃÆ›HÒRMAJORZBUG
+R
+java:S3864)"!Remove this use of "Stream.peek".(Ô‚¼ŠúÿÿÿÿHÓRMAJORZ
+CODE_SMELL

@@ -1,0 +1,9 @@
+package poly.edu.service;
+
+public interface ProductService {
+
+	Object findById(Integer id);
+	
+	List<Product> findAll();
+
+}

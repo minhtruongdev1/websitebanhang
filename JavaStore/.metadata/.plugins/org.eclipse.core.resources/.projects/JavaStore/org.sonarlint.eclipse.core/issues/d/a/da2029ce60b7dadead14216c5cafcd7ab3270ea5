@@ -1,0 +1,18 @@
+
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚Ò¨SHáRMINORZ
+CODE_SMELL
+f
+java:S1874S"5Remove this use of "deleteInBatch"; it is deprecated.(²Ï²ÜÿÿÿÿÿHâRMINORZ
+CODE_SMELL
+_
+java:S1874".Remove this use of "getOne"; it is deprecated.(¹š«³úÿÿÿÿHãRMINORZ
+CODE_SMELL
+a
+java:S1874‹"/Remove this use of "getById"; it is deprecated.(ìÄ¥ÛúÿÿÿÿHäRMINORZ
+CODE_SMELL
+„
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸ÎùÿÿÿÿHåRMINORZ
+CODE_SMELL
+b
+java:S1128"6Remove this unused import 'Poly.store.Dao.ProductDao'.(çË¤HçRMINORZ
+CODE_SMELL

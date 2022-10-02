@@ -1,0 +1,14 @@
+package poly.edu.Dao;
+
+
+import poly.edu.entity.Order;
+
+
+
+
+//@Repository
+public interface OrderDAO  extends JpaRepository<Order, Long>{
+
+
+
+}

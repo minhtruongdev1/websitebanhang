@@ -1,0 +1,14 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{/layout/index ::dynamic(~{::main})}">
+
+<body>
+  <main class="row">
+  		<div th:each="p:${items}" class="conl-sm-4">
+  		<div th:text="${p.name}"></div>
+  		<div th:text="${p.images}"></div>
+  		 </div>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+
+ƒ
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8ş›œÏª0HÚRMINORZ
+CODE_SMELL
+„
+java:S1104 "QMake price a static final constant or non-public and provide accessors if needed.(†Óª8´¬¥Ïª0HßRMINORZ
+CODE_SMELL
+„
+java:S1104"QMake image a static final constant or non-public and provide accessors if needed.(•—î×8”ŸÏª0HÛRMINORZ
+CODE_SMELL
+X
+java:S1948*")Make "orderDetails" private or transient.(Ä…‚®HÉRCRITICALZ
+CODE_SMELL
+
+java:S1104$"UMake available a static final constant or non-public and provide accessors if needed.(ıÊ§œüÿÿÿÿ8Ø€ùÒª0H RMINORZ
+CODE_SMELL

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org"
+ th:replace="~{/layout/index::dynamic(~{::main})}">
+ <head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+ 
+    <body>
+      <main>
+      <div class="panel panel-primary">
+       <div class="panel-heading">YOUR ORDERS PURCHASED</div>
+       <table class="table">
+         <thead>
+           <tr>
+             <th>No.</th>
+             <th>Order No.</th>
+             <th>Order Date</th>
+             <th>Shipping Address</th>
+             <th></th>
+           </tr>         
+         </thead>
+         <tbody>
+             <tr th:each="order,state:${orders}">
+               <td>[[${state.index}]]</td>
+                 <td>[[${order.id}]]</td>
+                   <td>[[${order.createDate}]]</td>
+                     <td>[[${order.address}]]</td>
+                       <td>
+                          <a th:href="@{|/order/detail/${order.id}|}" class="btn btn-danger">
+                            <b class="fas fa-search"></b>
+                          </a>
+                       </td>                
+             </tr>
+         </tbody>
+       </table>
+      </div>
+      </main>
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

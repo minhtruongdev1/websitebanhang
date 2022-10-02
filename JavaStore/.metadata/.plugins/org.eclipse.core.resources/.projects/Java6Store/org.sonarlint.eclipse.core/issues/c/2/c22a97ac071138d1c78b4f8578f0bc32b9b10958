@@ -1,0 +1,7 @@
+
+X
+java:S1948)")Make "orderDetails" private or transient.(Ä…‚®HÔRCRITICALZ
+CODE_SMELL
+‹
+java:S1104"SMake address a static final constant or non-public and provide accessors if needed.(€ªµúÿÿÿÿÿ8ˆöüÒª0H»RMINORZ
+CODE_SMELL
